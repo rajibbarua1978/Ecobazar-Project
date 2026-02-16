@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/slick.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <title>Ecobazar</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+</head>
+
+<body>
+   <!-- Header Starts Here -->
+  <!-- Top Header Starts -->
+  <header>
+    <section id="top_header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 location">
+            <p class="d-inline-flex align-items-center"><span class="location_icon d-inline-flex"><iconify-icon
+                  icon="proicons:location"></iconify-icon></span> Store Location: Lincoln- 344, Illinois, Chicago, USA
+            </p>
+          </div>
+          <div class="d-none d-lg-block col-lg-6 text-end config_option">
+            <!-- Lang Select Start -->
+            <select name="lang" class="select-input">
+              <option value="">Eng</option>
+              <option value="">Bng</option>
+            </select>
+            <!-- Lang Select Ends -->
+            <!-- Currency Select Starts -->
+            <select name="Currency" class="select-input">
+              <option value="">USD</option>
+              <option value="">BDT</option>
+            </select>
+            <!-- Currency Select Ends -->
+            <a href="#">Sign In / Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Top Header Ends -->
+    <!-- Middle Header Starts -->
+<section id="middle_header" class="d-none d-lg-block">
+      <nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <div class="col-lg-3">
+        <a class="navbar-brand" href="index.html"><img src="./assets/images/Logo.png" alt=""></a>
+    </div>
+    <div class="col-lg-6">
+        <form class="align-items-center" role="search">
+            <span class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314"/></svg></span>
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="search-btn" type="submit">Search</button>
+      </form>
+    </div>
+    <div class="col-lg-3 iconGroup" id="menuLg">
+      <ul class="d-flex justify-content-end align-items-center">
+        <li class="nav-item">
+         <a class="d-inline-flex"> <span class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="m8.962 18.91l.464-.588zM12 5.5l-.54.52a.75.75 0 0 0 1.08 0zm3.038 13.41l.465.59zm-5.612-.588C7.91 17.127 6.253 15.96 4.938 14.48C3.65 13.028 2.75 11.335 2.75 9.137h-1.5c0 2.666 1.11 4.7 2.567 6.339c1.43 1.61 3.254 2.9 4.68 4.024zM2.75 9.137c0-2.15 1.215-3.954 2.874-4.713c1.612-.737 3.778-.541 5.836 1.597l1.08-1.04C10.1 2.444 7.264 2.025 5 3.06C2.786 4.073 1.25 6.425 1.25 9.137zM8.497 19.5c.513.404 1.063.834 1.62 1.16s1.193.59 1.883.59v-1.5c-.31 0-.674-.12-1.126-.385c-.453-.264-.922-.628-1.448-1.043zm7.006 0c1.426-1.125 3.25-2.413 4.68-4.024c1.457-1.64 2.567-3.673 2.567-6.339h-1.5c0 2.198-.9 3.891-2.188 5.343c-1.315 1.48-2.972 2.647-4.488 3.842zM22.75 9.137c0-2.712-1.535-5.064-3.75-6.077c-2.264-1.035-5.098-.616-7.54 1.92l1.08 1.04c2.058-2.137 4.224-2.333 5.836-1.596c1.659.759 2.874 2.562 2.874 4.713zm-8.176 9.185c-.526.415-.995.779-1.448 1.043s-.816.385-1.126.385v1.5c.69 0 1.326-.265 1.883-.59c.558-.326 1.107-.756 1.62-1.16z"/></svg></span></a>
+        </li>
+        <li class="nav-item">
+            <!-- Cart Button Starts -->
+        <a class="d-inline-flex align-items-center gap-2 cart">
+            <div class="cart-icon">
+            <div class="counter">2</div>
+            <span href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M2.048 18.566A2 2 0 0 0 4 21h16a2 2 0 0 0 1.952-2.434l-2-9A2 2 0 0 0 18 8H6a2 2 0 0 0-1.952 1.566z"/><path d="M8 11V6a4 4 0 0 1 8 0v5"/></g></svg></span>
+        </div>
+        <div class="cart-detail">
+        <p>Shopping cart:</p>
+        <h4>$57.00</h4>
+        </div>
+        </a>
+        <!-- Cart Button Ends -->
+        </li>
+        </ul>
+    </div>
+  </div>
+</nav>
+    </section>
+    <!-- Middle Header Ends -->
+    <!-- Bottom Header Starts -->
+    <section id="bottom_header" class="d-none d-lg-block">
+      <div class="container">
+        <div class="row align-items-center">
+         <div class="col-lg-10">
+            <!-- Large Menu -->
+             <ul class="d-flex align-items-center">
+                <li>
+                <button id="categoryToggleBtn" class="d-flex align-items-center"><span class="d-inline-flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M19.75 12a.75.75 0 0 0-.75-.75H5a.75.75 0 0 0 0 1.5h14a.75.75 0 0 0 .75-.75m0-5a.75.75 0 0 0-.75-.75H5a.75.75 0 0 0 0 1.5h14a.75.75 0 0 0 .75-.75m0 10a.75.75 0 0 0-.75-.75H5a.75.75 0 0 0 0 1.5h14a.75.75 0 0 0 .75-.75" clip-rule="evenodd"/></svg></span>
+                        All Categiries
+                    <span class="d-inline-flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"><path fill="currentColor" d="M831.9 340.9L512 652.7L192.1 340.9a30.6 30.6 0 0 0-42.7 0a29 29 0 0 0 0 41.6l340.3 331.7a32 32 0 0 0 44.6 0l340.3-331.7a29 29 0 0 0 0-41.7a30.6 30.6 0 0 0-42.7 0z"/></svg></span>
+                </button>
+                <div class="submenu">
+                    <ul>
+                        <li><a href="#">Vegetables</a></li>
+                        <li><a href="#">Fresh Fruit</a></li>
+                        <li><a href="#">Cooking</a></li>
+                        <li><a href="#">Snacks</a></li>
+                        <li><a href="#">Beverages</a></li>
+                        <li><a href="#">Bread & Bakery</a></li>
+                    </ul>
+                </div>  
+                </li>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shopping-cart.html">Shop</a></li>
+                <li><a href="single-blog-post.html">Blogs</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+             </ul>
+
+         </div>
+         <div class="col-lg-2">
+            <!-- Call To Action Button -->
+
+            <a class="ctaButton align-items-center d-inline-flex" href="tel:(219) 555-0114"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M13.5 2s2.334.212 5.303 3.182c2.97 2.97 3.182 5.303 3.182 5.303m-7.778-4.949s.99.282 2.475 1.767s1.768 2.475 1.768 2.475"/><path fill="currentColor" d="m15.1 15.027l-.543-.516zm.456-.48l.544.517zm2.417-.335l-.374.65zm1.91 1.1l-.374.65zm.539 3.446l.543.517zm-1.42 1.496l-.545-.517zm-1.326.71l.074.745zm-9.86-4.489l.543-.516zm-4.813-9.51l-.749.041zm6.475 1.538l.543.517zm.156-2.81l.613-.433zM8.374 3.91l-.613.433zM5.26 3.609l.544.516zM3.691 5.26l-.543-.516zm7.372 7.795l.544-.517zm4.582 2.488l.455-.48l-1.088-1.033l-.455.48zm1.954-.682l1.91 1.1l.749-1.3l-1.911-1.1zm2.279 3.38l-1.42 1.495l1.087 1.034l1.42-1.496zm-2.275 1.975c-1.435.141-5.18.02-9.244-4.258l-1.087 1.033c4.429 4.663 8.654 4.898 10.478 4.717zm-9.244-4.258c-3.876-4.081-4.526-7.523-4.607-9.033l-1.498.08c.1 1.85.884 5.634 5.018 9.986zm1.376-6.637l.286-.302l-1.087-1.033l-.287.302zm.512-4.062L8.986 3.477l-1.225.866l1.26 1.783zm-5.53-2.168L3.149 4.745l1.088 1.033l1.57-1.653zm4.474 5.713a38 38 0 0 0-.545-.515l-.002.002l-.003.003l-.05.058a1.6 1.6 0 0 0-.23.427c-.098.275-.15.639-.084 1.093c.13.892.715 2.091 2.242 3.7l1.088-1.034c-1.428-1.503-1.78-2.428-1.846-2.884c-.032-.22 0-.335.013-.372l.008-.019l-.028.037l-.018.02s-.002 0-.545-.516m1.328 4.767c1.523 1.604 2.673 2.234 3.55 2.377c.451.073.816.014 1.092-.095a1.5 1.5 0 0 0 .421-.25l.036-.034l.014-.014l.007-.006l.003-.003l.001-.002s.002-.001-.542-.518c-.544-.516-.543-.517-.543-.518l.002-.001l.002-.003l.005-.005l.01-.01l.037-.032q.015-.008-.004.001c-.02.008-.11.04-.3.009c-.402-.066-1.27-.42-2.703-1.929zM8.986 3.477C7.972 2.043 5.944 1.8 4.718 3.092l1.087 1.033c.523-.55 1.444-.507 1.956.218zM3.752 6.926c-.022-.4.152-.8.484-1.148L3.148 4.745c-.536.564-.943 1.347-.894 2.261zm14.705 12.811c-.279.294-.57.452-.854.48l.147 1.492c.747-.073 1.352-.472 1.795-.939zM10.021 9.02c.968-1.019 1.036-2.613.226-3.76l-1.225.866c.422.597.357 1.392-.088 1.86zm9.488 6.942c.821.473.982 1.635.369 2.28l1.087 1.033c1.305-1.374.925-3.673-.707-4.613zm-3.409-.898c.385-.406.986-.497 1.499-.202l.748-1.3c-1.099-.632-2.46-.45-3.335.47z"/></g></svg></span>(219) 555-0114</a>
+         </div>
+        </div>
+      </div>
+    </section>
+    <!-- Bottom Header Ends -->
+    <!-- Mobile Menu Starts -->
+    <section id="mobileHeader" class="d-lg-none">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" class="d-inline-flex sidebarBtn">
+                        <span class="d-inline-flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/></svg>
+                    </span>
+                    </button>
+                </div>
+                <div class="col-6">
+                    <a href="#"><img src="./assets/images/Logo.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-3">
+                    <div class="iconGroup" id="menuLg">
+      <ul class="d-flex justify-content-end align-items-center">
+        <li class="nav-item">
+         <a class="d-inline-flex"> <span class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="m8.962 18.91l.464-.588zM12 5.5l-.54.52a.75.75 0 0 0 1.08 0zm3.038 13.41l.465.59zm-5.612-.588C7.91 17.127 6.253 15.96 4.938 14.48C3.65 13.028 2.75 11.335 2.75 9.137h-1.5c0 2.666 1.11 4.7 2.567 6.339c1.43 1.61 3.254 2.9 4.68 4.024zM2.75 9.137c0-2.15 1.215-3.954 2.874-4.713c1.612-.737 3.778-.541 5.836 1.597l1.08-1.04C10.1 2.444 7.264 2.025 5 3.06C2.786 4.073 1.25 6.425 1.25 9.137zM8.497 19.5c.513.404 1.063.834 1.62 1.16s1.193.59 1.883.59v-1.5c-.31 0-.674-.12-1.126-.385c-.453-.264-.922-.628-1.448-1.043zm7.006 0c1.426-1.125 3.25-2.413 4.68-4.024c1.457-1.64 2.567-3.673 2.567-6.339h-1.5c0 2.198-.9 3.891-2.188 5.343c-1.315 1.48-2.972 2.647-4.488 3.842zM22.75 9.137c0-2.712-1.535-5.064-3.75-6.077c-2.264-1.035-5.098-.616-7.54 1.92l1.08 1.04c2.058-2.137 4.224-2.333 5.836-1.596c1.659.759 2.874 2.562 2.874 4.713zm-8.176 9.185c-.526.415-.995.779-1.448 1.043s-.816.385-1.126.385v1.5c.69 0 1.326-.265 1.883-.59c.558-.326 1.107-.756 1.62-1.16z"/></svg></span></a>
+        </li>
+        <li class="nav-item">
+            <!-- Cart Button Starts -->
+        <a class="d-inline-flex align-items-center gap-2 cart">
+            <div class="cart-icon">
+            <div class="counter">2</div>
+            <span href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M2.048 18.566A2 2 0 0 0 4 21h16a2 2 0 0 0 1.952-2.434l-2-9A2 2 0 0 0 18 8H6a2 2 0 0 0-1.952 1.566z"/><path d="M8 11V6a4 4 0 0 1 8 0v5"/></g></svg></span>
+        </div>
+        </a>
+        <!-- Cart Button Ends -->
+        </li>
+        </ul>
+    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar starts -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- Sidebar Ends -->
+    </section>
+    <!-- Mobile Menu Ends -->
+  </header>
+
+  <!-- Header Ends Here -->
+  <!-- Main Starts Here -->
+    <main>
+        <!-- breadcrum start -->
+        <section id="breadCrums">
+            <div class="container">
+                <div class="linkContant">
+                    <ul class="d-flex align-items-center gap-1">
+                        <li><a href="index.html"><iconify-icon icon="material-symbols-light:home-outline-rounded"
+                                    width="24" height="24"></iconify-icon></a></li>
+                        <iconify-icon icon="material-symbols-light:keyboard-arrow-right"></iconify-icon>
+                        <li><a href="">Blog</a></li>
+                        <iconify-icon icon="material-symbols-light:keyboard-arrow-right"></iconify-icon>
+                        <li><a class="active" href="">Single Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrum end -->
+        <!-- blog post start -->
+        <section id="single-blog-post">
+            <div class="container">
+                <div class="row ">
+                    <div class="aside-bar d-lg-none d-block">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions"
+                            aria-controls="offcanvasWithBothOptions"><iconify-icon
+                                icon="picon:right"></iconify-icon></button>
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <button class="filter-btn">Filter <span><iconify-icon
+                                    icon="lets-icons:filter-big"></iconify-icon></span></button>
+                        <input class="w-100 blog-search" type="search" placeholder="search ">
+                        <hr>
+                        <div class="news-catagory">
+                            <h4>Top Categories</h4>
+                            <div class="catagory-tag">
+                                <a href="">Fresh Fruit</a>
+                                <span> (134)</span>
+                            </div>
+                            <div class="catagory-tag">
+                                <a href="">Vegetables</a>
+                                <span> (150)</span>
+                            </div>
+                            <div class="catagory-tag">
+                                <a href="">Cooking</a>
+                                <span> (54)</span>
+                            </div>
+                            <div class="catagory-tag">
+                                <a href="">Snacks</a>
+                                <span> (47)</span>
+                            </div>
+                            <div class="catagory-tag">
+                                <a href="">Beverages</a>
+                                <span> (43)</span>
+                            </div>
+                            <div class="catagory-tag">
+                                <a href="">Beauty & Health</a>
+                                <span> (38)</span>
+                            </div>
+                            <div class="catagory-tag">
+                                <a href="">Bread & Bakery</a>
+                                <span> (15)</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="news-tags">
+                            <h4>Popular Tag</h4>
+                            <button>Health</button>
+                            <button>Low fat</button>
+                            <button>Vegetarian</button>
+                            <button>Bread</button>
+                            <button>Kid foods</button>
+                            <button>Vitamins</button>
+                            <button>Snacks</button>
+                            <button>Tiffin</button>
+                            <button>Meat</button>
+                            <button>Launch</button>
+                            <button>Dinner</button>
+                        </div>
+                        <hr>
+                        <div class="gallery-img">
+                            <h4>Our Gallery</h4>
+                            <div class="images">
+                                <img class="img-fluid" loading="lazy" src="./assets/images/news-img/gallery1.png"
+                                    alt="">
+                                <img class="img-fluid" loading="lazy" src="./assets/images/news-img/gallery2.png"
+                                    alt="">
+                                <img class="img-fluid" loading="lazy" src="./assets/images/news-img/gallery3.png"
+                                    alt="">
+                                <img class="img-fluid" loading="lazy" src="./assets/images/news-img/gallery4.png"
+                                    alt="">
+                                <img class="img-fluid" loading="lazy" src="./assets/images/news-img/gallery5.png"
+                                    alt="">
+                                <img class="img-fluid" loading="lazy" src="./assets/images/news-img/gallery6.png"
+                                    alt="">
+                                <img class="img-fluid" loading="lazy" src="./assets/images/news-img/gallery7.png"
+                                    alt="">
+                                <img class="img-fluid" loading="lazy" src="./assets/images/news-img/gallery8.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="re-add">
+                            <h4>Recently Added</h4>
+                            <div class="re-add-post">
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-4">
+                                        <img class="img-fluid" src="./assets/images/news-img/ra1.png" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Curabitur porttitor orci eget nequ accumsan.</h6>
+                                        <p><span><iconify-icon icon="formkit:date"></iconify-icon></span>Apr 25, 2021
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-4">
+                                        <img class="img-fluid" src="./assets/images/news-img/ra2.png" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Curabitur porttitor orci eget nequ accumsan.</h6>
+                                        <p><span><iconify-icon icon="formkit:date"></iconify-icon></span>Apr 25, 2021
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-4">
+                                        <img class="img-fluid" src="./assets/images/news-img/ra3.png" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Curabitur porttitor orci eget nequ accumsan.</h6>
+                                        <p><span><iconify-icon icon="formkit:date"></iconify-icon></span>Apr 25, 2021
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-2 d-none d-lg-block">
+                        <input class="w-100 blog-search" type="search" placeholder="search ">
+                        <hr>
+                        <div class="news-catagory">
+                            <h4>Top Categories</h4>
+                            <div class="catagory-tag">
+                                <a href="">Fresh Fruit</a>
+                                <span> (134)</span>
+                            </div>
+                            <div class="catagory-tag">
+                                <a href="">Vegetables</a>
+                                <span> (150)</span>
+                            </div>
+                            <div class="catagory-tag">
+                                <a href="">Cooking</a>
+                                <span> (54)</span>
+                            </div>
+                            <div class="catagory-tag">
+                                <a href="">Snacks</a>
+                                <span> (47)</span>
+                            </div>
+                            <div class="catagory-tag">
+                                <a href="">Beverages</a>
+                                <span> (43)</span>
+                            </div>
+                            <div class="catagory-tag">
+                                <a href="">Beauty & Health</a>
+                                <span> (38)</span>
+                            </div>
+                            <div class="catagory-tag">
+                                <a href="">Bread & Bakery</a>
+                                <span> (15)</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="news-tags">
+                            <h4>Popular Tag</h4>
+                            <button>Health</button>
+                            <button>Low fat</button>
+                            <button>Vegetarian</button>
+                            <button>Bread</button>
+                            <button>Kid foods</button>
+                            <button>Vitamins</button>
+                            <button>Snacks</button>
+                            <button>Tiffin</button>
+                            <button>Meat</button>
+                            <button>Launch</button>
+                            <button>Dinner</button>
+                        </div>
+                        <hr>
+                        <div class="gallery-img">
+                            <h4>Our Gallery</h4>
+                            <div class="images">
+                                <img class="img-fluid" src="./assets/images/news-img/gallery1.png" alt="">
+                                <img class="img-fluid" src="./assets/images/news-img/gallery2.png" alt="">
+                                <img class="img-fluid" src="./assets/images/news-img/gallery3.png" alt="">
+                                <img class="img-fluid" src="./assets/images/news-img/gallery4.png" alt="">
+                                <img class="img-fluid" src="./assets/images/news-img/gallery5.png" alt="">
+                                <img class="img-fluid" src="./assets/images/news-img/gallery6.png" alt="">
+                                <img class="img-fluid" src="./assets/images/news-img/gallery7.png" alt="">
+                                <img class="img-fluid" src="./assets/images/news-img/gallery8.png" alt="">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="re-add">
+                            <h4>Recently Added</h4>
+                            <div class="re-add-post">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img class="img-fluid" src="./assets/images/news-img/ra1.png" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Curabitur porttitor orci eget nequ accumsan.</h6>
+                                        <p><span><iconify-icon icon="formkit:date"></iconify-icon></span>Apr 25, 2021
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img class="img-fluid" src="./assets/images/news-img/ra2.png" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Curabitur porttitor orci eget nequ accumsan.</h6>
+                                        <p><span><iconify-icon icon="formkit:date"></iconify-icon></span>Apr 25, 2021
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img class="img-fluid" src="./assets/images/news-img/ra3.png" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Curabitur porttitor orci eget nequ accumsan.</h6>
+                                        <p><span><iconify-icon icon="formkit:date"></iconify-icon></span>Apr 25, 2021
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-8 order-1 single-blog">
+                        <div class="blog-main-img">
+                            <img src="./assets/images/news-img/single-blog/mainimage.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="post-man">
+                            <p><span><iconify-icon icon="prime:tag"></iconify-icon></span>Food </p>
+                            <p><span><iconify-icon icon="flowbite:user-outline"></iconify-icon></span>By
+                                Admin
+                            </p>
+                            <p><span><iconify-icon icon="majesticons:comment-2-line"></iconify-icon></span>65
+                                Comments </p>
+                        </div>
+                        <h2>Maecenas tempor urna sed quam mollis, a placerat dui fringill Suspendisse.</h2>
+                        <div class="row post-by align-items-center">
+                            <div class="col-6">
+                                <div class="row align-items-center">
+                                    <div class="col-2 p-0">
+                                        <img src="./assets/images/news-img/single-blog/admin.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-10 p-0">
+                                        <h5>Cameron Williamson</h5>
+                                        <p>4 April, 2021
+                                            <span><iconify-icon icon="radix-icons:dot-filled"></iconify-icon></span>
+                                            6 min read
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="socialIcon">
+                                    <ul class="d-flex">
+                                        <li>
+                                            <a href=""><iconify-icon icon="gg:facebook"></iconify-icon></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><iconify-icon icon="uiw:twitter"></iconify-icon></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><iconify-icon icon="typcn:social-pinterest"></iconify-icon></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><iconify-icon icon="la:instagram"></iconify-icon></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><iconify-icon icon="meteor-icons:chain"></iconify-icon></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <h3>Maecenas lacinia felis nec placerat sollicitudin. Quisque placerat dolor at scelerisque
+                            imperdiet. Phasellus tristique felis dolor.</h3>
+                        <p class="p1">Maecenas elementum in risus sed condimentum. Duis convallis ante ac tempus maximus. Fusce
+                            malesuada sed velit ut dictum. Morbi faucibus vitae orci at euismod. Integer auctor augue in
+                            erat vehicula, quis fermentum ex finibus.</p>
+                        <p class="p2">Mauris pretium elit a dui pulvinar, in ornare sapien euismod. Nullam interdum nisl ante, id
+                            feugiat quam euismod commodo. Sed ultrices lectus ut iaculis rhoncus. Aenean non dignissim
+                            justo, at fermentum turpis. Sed molestie, ligula ut molestie ultrices, tellus ligula viverra
+                            neque, malesuada consectetur diam sapien volutpat risus.
+                            Quisque eget tortor lobortis, facilisis metus eu, elementum est. Nunc sit amet erat quis ex
+                            convallis suscipit. ur ridiculus mus.</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="./assets/images/news-img/single-blog/orange.png" loading="lazy" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img src="./assets/images/news-img/single-blog/mango.png" loading="lazy" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <p class="p3">Sed dictum non nulla eu imperdiet. Duis elit libero, vulputate quis vehicula ut, vestibulum
+                            ut mauris. Nullam non felis varius dui rutrum rutrum in a nisi. Suspendisse elementum rutrum
+                            lorem sed luctus. Proin iaculis euismod metus non sollicitudin. Duis vel luctus lacus.
+                            Nullam faucibus iaculis convallis. In ullamcorper nibh ipsum, eget lacinia eros pulvinar a.
+                            Integer accumsan arcu nec faucibus ultricies.
+                        </p>
+                        <div class="offer-part text-start">
+                            <h6>Summer Sales</h6>
+                            <h3>Fresh Fruit</h3>
+                            <a class="primary-btn" href="">Shop now
+                                <iconify-icon icon="mynaui:arrow-right"></iconify-icon></a>
+                            <div class="parcent-offer">
+                                <p>up to <br><span>56%</span><br> Off</p>
+                            </div>
+                        </div>
+                        <div class="comment-drop">
+                            <h3>Leave a Comment</h3>
+                            <form>
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <label for="fu-name">Full Name</label>
+                                        <input class="w-100" type="text" id="fu-name" placeholder="Enter your name">
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <label for="e-mail">Email</label>
+                                        <input class="w-100" type="email" id="e-mail" placeholder="Enter your email">
+                                    </div>
+                                    <label for="massage">Massage</label>
+                                    <textarea id="massage" ></textarea>
+                                    <label for="save-nm-em">
+                                        <input type="checkbox" id="save-nm-em">Save my name and email in this browser
+                                        for the next time I comment.
+                                    </label>
+
+                                </div>
+                            </form>
+                            <button class="primary-btn border-0">Post Comment</button>
+                        </div>
+                        <div class="comments">
+                            <h3>Comments</h3>
+                            <div class="single-comment d-flex gap-4">
+                                <div class="comnt-img">
+                                    <img src="./assets/images/news-img/single-blog/coment1.png" alt="">
+                                </div>
+                                <div class="comnt-txt">
+                                    <h6>Annette Black <b><iconify-icon icon="ph:dot-bold"></iconify-icon></b> <span>26
+                                            Apr, 2021</span></h6>
+                                    <p>In a nisi commodo, porttitor ligula consequat, tincidunt dui. Nulla volutpat,
+                                        metus eu aliquam malesuada, elit libero venenatis urna, consequat maximus arcu
+                                        diam non diam.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="single-comment d-flex gap-4">
+                                <div class="comnt-img">
+                                    <img src="./assets/images/news-img/single-blog/coment2.png" alt="">
+                                </div>
+                                <div class="comnt-txt">
+                                    <h6>Devon Lane <b><iconify-icon icon="ph:dot-bold"></iconify-icon></b> <span>26 Apr,
+                                            2021</span></h6>
+                                    <p>Quisque eget tortor lobortis, facilisis metus eu, elementum est. Nunc sit amet
+                                        erat quis ex convallis suscipit. Nam hendrerit, velit ut aliquam euismod, nibh
+                                        tortor rutrum nisi, ac sodales nunc eros porta nisi. Sed scelerisque, est eget
+                                        aliquam venenatis, est sem tempor eros.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="single-comment d-flex gap-4">
+                                <div class="comnt-img">
+                                    <img src="./assets/images/news-img/single-blog/coment3.png" alt="">
+                                </div>
+                                <div class="comnt-txt">
+                                    <h6>Jacob Jones <b><iconify-icon icon="ph:dot-bold"></iconify-icon></b> <span>26
+                                            Apr, 2021</span></h6>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                                        curae.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="single-comment d-flex gap-4">
+                                <div class="comnt-img">
+                                    <img src="./assets/images/news-img/single-blog/coment4.png" alt="">
+                                </div>
+                                <div class="comnt-txt">
+                                    <h6>Jane Cooper <b><iconify-icon icon="ph:dot-bold"></iconify-icon></b> <span>26
+                                            Apr, 2021</span></h6>
+                                    <p>Pellentesque feugiat, nibh vel vehicula pretium, nibh nibh bibendum elit, a
+                                        volutpat arcu dui nec orci. Aenean dui odio, ullamcorper quis turpis ac,
+                                        volutpat imperdiet ex.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="single-comment d-flex gap-4">
+                                <div class="comnt-img">
+                                    <img src="./assets/images/news-img/single-blog/coment5.png" alt="">
+                                </div>
+                                <div class="comnt-txt">
+                                    <h6>Darrell Steward <b><iconify-icon icon="ph:dot-bold"></iconify-icon></b> <span>26
+                                            Apr, 2021</span></h6>
+                                    <p>Nulla molestie interdum ultricies. </p>
+                                </div>
+                            </div>
+                            <button class="load-comments">Load More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog post end -->
+    </main>
+    <!-- newslatter start -->
+    <section id="newsLatter">
+        <div class="container">
+            <div class="row justify-contant-between align-items-center pt-5">
+                <div class="col-lg-4 col-12 text-center text-lg-start">
+                    <h5>Subcribe our Newsletter</h5>
+                    <p>Pellentesque eu nibh eget mauris congue mattis matti.</p>
+                </div>
+                <div class="col-lg-5 col-12 text-center text-lg-start">
+                    <form>
+                        <input type="email" placeholder="Your email address" />
+                        <button class="subBtn">Subscribe</button>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-12 singleproduct-social">
+                    <div class="socialIcon">
+                        <ul class="d-flex justify-content-center">
+                            <li>
+                                <a href=""><iconify-icon icon="gg:facebook"></iconify-icon></a>
+                            </li>
+                            <li>
+                                <a href=""><iconify-icon icon="uiw:twitter"></iconify-icon></a>
+                            </li>
+                            <li>
+                                <a href=""><iconify-icon icon="typcn:social-pinterest"></iconify-icon></a>
+                            </li>
+                            <li>
+                                <a href=""><iconify-icon icon="la:instagram"></iconify-icon></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- newslatter end -->
+    <!-- footer start -->
+    <footer id="footer">
+        <div class="backImg">
+            <img class="img-fluid d-none d-lg-block" loading="lazy" src="./assets/images/footer.png" alt="leftImg" />
+            <img class="img-fluid d-none d-lg-block" loading="lazy" src="./assets/images/Group 17.png" alt="rightImg" />
+        </div>
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-lg-3 col-12 p-0 text-center text-lg-start">
+                    <h5>About Shopery</h5>
+                    <p class="mb-4">
+                        Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis
+                        dui, eget bibendum magna congue nec.
+                    </p>
+                    <p class="contactLinks"><a href="tel:(219) 555-0114">(219) 555-0114</a>
+                        or
+                        <a href="">Proxy@gmail.com</a>
+                    </p>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <h5>My Account</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Order History</a></li>
+                        <li><a href="shopping-cart.html">Shipping Cart</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <h5>Helps</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Faqs</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <h5>Proxy</h5>
+                    <ul class="footer-list">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Products Details</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <h5>Instagram</h5>
+                    <div class="instaImg ">
+                        <img class="img-fluid" src="./assets/images/instagram/Image1.png" alt="" />
+                        <img class="img-fluid" src="./assets/images/instagram/image2.png" alt="" />
+                        <img class="img-fluid" src="./assets/images/instagram/Image3.png" alt="" />
+                        <img class="img-fluid" src="./assets/images/instagram/Image4.png" alt="" />
+                        <img class="img-fluid" src="./assets/images/instagram/Image5.png" alt="" />
+                        <img class="img-fluid" src="./assets/images/instagram/Image6.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <hr class="d-none d-lg-block" />
+            <div class="footerBottom">
+                <div class="row">
+                    <div class="col-lg-5 col-12 order-lg-2 order-3 text-center">
+                        <p class="mb-0 copyRight">Shopery eCommerce © 2025. All Rights Reserved</p>
+                    </div>
+                    <div class="col-lg-4 col-12 order-lg-3 order-2">
+                        <div class="paymentIcons text-center">
+                            <a href=""><iconify-icon icon="fa7-brands:apple-pay" width="32"
+                                    height="14"></iconify-icon></a>
+                            <a href=""><iconify-icon icon="simple-icons:visa" width="32" height="14"></iconify-icon></a>
+                            <a href=""><iconify-icon icon="brandico:discover" width="32" height="14"></iconify-icon></a>
+                            <a href=""><iconify-icon icon="logos:mastercard" width="32" height="14"></iconify-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
